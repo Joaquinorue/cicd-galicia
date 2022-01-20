@@ -29,4 +29,4 @@ jobs:
           push: true
           tags: jorue/cicd-galicia:latest
           secrets: |
-            GIT_AUTH_TOKEN=${{ secrets.DOCKER_TOKEN }}
+            GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
